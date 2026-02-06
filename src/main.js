@@ -3,6 +3,7 @@ import * as Draw from "@strudel/draw";
 import * as Transpiler from "@strudel/transpiler";
 import * as Webaudio from "@strudel/webaudio";
 import * as Mini from "@strudel/mini";
+import * as Tonal from "@strudel/tonal";
 import * as Soundfonts from "@strudel/soundfonts";
 import * as Nano from "@nanostores/persistent";
 import * as Highlight from "@lezer/highlight";
@@ -10,6 +11,7 @@ import * as Highlight from "@lezer/highlight";
 export const StrudelLib = {
   core: Core,
   draw: Draw,
+  tonal: Tonal,
   webaudio: Webaudio,
   transpiler: Transpiler,
   mini: Mini,
